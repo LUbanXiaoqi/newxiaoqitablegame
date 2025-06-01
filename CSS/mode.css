@@ -1,0 +1,10 @@
+img{
+    width: 15%;
+    height: 15%;
+}
+img:hover{
+    transition: all 250ms linear;
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+}

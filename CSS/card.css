@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.player{
+    color: #f00;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    width: 16%;
+    display: inline-block;
+}
+img{
+    width: 16%;
+}
+button{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    color: #00f;
+    background-color: #0f0;
+    width: 150px;
+    border-radius: 100px;
+}
+.out{
+    filter: grayscale(80%);
+}

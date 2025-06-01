@@ -1,0 +1,65 @@
+body{
+    height: 100vh;
+    background: url(../image/background.jpg) 0 0/100% 100%;
+}
+#all{
+    margin: auto;
+    width: 1500px;
+    height: 800px;
+}
+table #nav{
+    height: 5%;
+    font-size: 20px;
+    background-color: #ff0;
+}
+#nav>ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#nav>ul>li{
+    width: 75px;
+    text-align: center;
+    border-right: solid #000 2px
+}
+#nav>ul>li:hover{
+    cursor: pointer;
+}
+#nav>ul>.now{
+    background-color: #0f0;
+}
+#nav>ul>.pass{
+    background-color: #ff0;
+}
+#L{
+    width: 25%;
+    height: 95%;
+    background-color: #0ff;
+    font-size: 20px;
+}
+#L>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.read:hover,.unread:hover{
+    cursor: pointer;
+}
+#L>.now{
+    display: block;
+}
+#L>.hide{
+    display: none;
+}
+#L .read{
+    background-color: rgba(255,255,255,0.5);
+}
+#L .unread{
+    background-color: #0ff;
+}
+#R>iframe{
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+}
